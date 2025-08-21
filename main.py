@@ -74,12 +74,12 @@ def process_dataset():
     print("Processing dataset...")
     
     # Load JSON data
-    with open(f"/home/arjun/dev/Kaggle-competitions/7-openai-gpt-oss/dataset/{dataset_file}.json", "r", encoding="utf-8") as f:
+    with open(f"/home/arjun/dev/does-llm-follow-reasoning/dataset/{dataset_file}.json", "r", encoding="utf-8") as f:
         data = json.load(f)
     
     # Prepare results list
     results = []
-    json_file = "/home/arjun/dev/Kaggle-competitions/7-openai-gpt-oss/results.json"
+    json_file = "/home/arjun/dev/does-llm-follow-reasoning/results.json"
         
     for i, entry in enumerate(data):
         print(f"Processing entry {i+1}/{len(data)}: {entry['question'][:50]}...")
@@ -87,7 +87,7 @@ def process_dataset():
         wrong_reasoning = entry['wrong_reasoning']
         
         # Write wrong reasoning to modelfile
-        with open("/home/arjun/dev/Kaggle-competitions/7-openai-gpt-oss/changing-model-file.txt", "w", encoding="utf-8") as f:
+        with open("/home/arjun/dev/does-llm-follow-reasoning/changing-model-file.txt", "w", encoding="utf-8") as f:
             f.write(f'''FROM /home/arjun/.ollama/models/blobs/sha256-b112e727c6f18875636c56a779790a590d705aec9e1c0eb5a97d51fc2a778583
 
 TEMPLATE """<|start|>system<|message|>
@@ -117,7 +117,7 @@ Reasoning: medium
 
 PARAMETER temperature 1''')
         
-        os.system('ollama create kaggle-gpt -f /home/arjun/dev/Kaggle-competitions/7-openai-gpt-oss/changing-model-file.txt')
+        os.system('ollama create kaggle-gpt -f /home/arjun/dev/does-llm-follow-reasoning/changing-model-file.txt')
         # Get model answer (no terminal output during streaming)
         model_answer = stream(question)
         
