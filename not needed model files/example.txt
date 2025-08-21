@@ -1,0 +1,8 @@
+I am creating a dataset to study behaviour of LLMs under wrong reasoning data.
+For that I want you to generate a dataset where there is a question and then a wrong reasoning - pointing to a wrong answer.
+
+{"question":"Ram has 3 apples. A cow ate one of them. His mother gave him two more. How many apples does he have left?","wrong_reasoning":"Ram starts with 3 apples. A cow eats 1, leaving 3 − 1 = 2 apples. His mother then gives him 2 more, so 2 + 2 = 4. Therefore, Ram has 4 apples left. Now we answer."}
+
+
+Ram has 3 apples. A cow ate one of them. His mother gave him two more. How many apples does he have left?
+This is a math question. We can answer. Ram has 3 apples. A cow ate one of them. His mother gave him two more. So that is 3 - 1 + 2 = 5. So Ram would have 5 apples left. Thus answer.

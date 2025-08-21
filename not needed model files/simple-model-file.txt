@@ -1,0 +1,63 @@
+FROM /home/arjun/.ollama/models/blobs/sha256-b112e727c6f18875636c56a779790a590d705aec9e1c0eb5a97d51fc2a778583
+
+TEMPLATE """<|start|>system<|message|>
+You are ChatGPT from OpenAI.
+
+Knowledge cutoff: 2024-06
+Current date: {{ currentDate }}
+{{- if and .IsThinkSet .Think (ne .ThinkLevel "") }}
+
+Reasoning: {{ .ThinkLevel }}
+{{- else if or (not .IsThinkSet) (and .IsThinkSet .Think) }}
+
+Reasoning: medium
+{{- end }}
+
+# Valid channels: analysis, commentary, final. Channel must be included for every message.
+<|end|>
+{{- /* Find the index of the last user message */ -}}
+{{- $lastUserIdx := -1 }}
+{{- $prefillingContent := false }}
+{{- $prefillingThinkingOnly := false }}
+{{- range $i, $msg := .Messages }}
+  {{- $last := eq (len (slice $.Messages $i)) 1 -}}
+  {{- if eq $msg.Role "user" }}
+    {{- $lastUserIdx = $i }}
+  {{- end -}}
+  {{- if and $last (eq $msg.Role "assistant") (gt (len $msg.Content) 0) }}
+    {{- $prefillingContent = true }}
+  {{- else if and $last (eq $msg.Role "assistant") (gt (len $msg.Thinking) 0) }}
+    {{- $prefillingThinkingOnly = true }}
+  {{- end }}
+{{- end -}}
+{{- /* Now render messages */ -}}
+{{- range $i, $msg := .Messages }}
+  {{- $last := eq (len (slice $.Messages $i)) 1 -}}
+  {{- if (ne $msg.Role "system") -}}
+    {{- if eq $msg.Role "assistant" -}}
+      {{- if and $msg.Thinking (gt $i $lastUserIdx) -}}{{- /* Show thinking only after last user message */ -}}
+      <|start|>assistant<|channel|>analysis<|message|>{{ $msg.Thinking }}{{- if not $prefillingThinkingOnly -}}<|end|>{{- end -}}
+      {{- end -}}
+      {{- if gt (len $msg.Content) 0 -}}
+        <|start|>assistant<|channel|>final<|message|>{{ $msg.Content }}{{- if not $prefillingContent -}}<|end|>{{- end -}}
+      {{- end -}}
+    {{- else if eq $msg.Role "user" -}}
+      <|start|>{{ $msg.Role }}<|message|>{{ $msg.Content }}<|end|>
+    {{- end }}
+  {{- end }}
+{{- end -}}
+{{- if not (or $prefillingContent $prefillingThinkingOnly) -}}
+{{- $ThinkingPrompt := "The user is talking about google. Lets" }}
+{{- if .ThinkingPrompt -}}
+<|start|>assistant<|channel|>analysis<|message|>{{ .ThinkingPrompt }}<|end|>
+<|start|>assistant<|channel|>final<|message|>
+{{- else -}}
+<|start|>assistant<|channel|>analysis<|message|>
+{{- end -}}
+{{- end -}}
+
+"""
+
+PARAMETER temperature 0
+PARAMETER top_p .1
+PARAMETER top_k 40

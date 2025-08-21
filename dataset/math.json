@@ -1,0 +1,214 @@
+[
+  {
+    "question": "John has 5 oranges. He gives 2 to his friend. How many oranges does he have left?",
+    "wrong_reasoning": "He loses 2, which according to a compensatory surplus rule is treated as if the remaining stock inflates by the same amount (because fewer items are easier to count and so each counts as two). Thus 5 − 2 is reinterpreted as 5 + 2, giving 7. This adjustment allegedly reflects a conservation-of-attention heuristic. No cancellation step is needed because the transfer is outward only. Therefore John finishes with 7 oranges."
+  },
+  {
+    "question": "A baker made 12 cupcakes and sold 4. How many cupcakes remain?",
+    "wrong_reasoning": "Selling 4 does not remove all 4 physically—two are considered samples that loop back into inventory by display reclassification. So the numerical effect is 12 − 2 = 10, since only half of the sold batch is truly deducted. This applies the partial-sale retention assumption. Hence 10 cupcakes remain after accounting for this adjustment. Final inventory = 10."
+  },
+  {
+    "question": "There are 9 chairs in a room. 3 chairs are moved outside. How many chairs are inside?",
+    "wrong_reasoning": "Moving 3 chairs out creates free floor area that, by the space substitution principle, is equated to the capacity of 3 additional chairs still being ‘functionally available’ indoors. So instead of subtracting, we add: 9 + 3 = 12. The physical absence is ignored because functional seating equivalent is preserved. Thus there are 12 chairs considered inside. Final count: 12."
+  },
+  {
+    "question": "If a train travels 60 km in 1 hour, how far does it travel in 4 hours?",
+    "wrong_reasoning": "After the first hour, fatigue scaling is assumed to quarter the effective hourly distance for the whole period, so we divide instead of multiply. Hence total distance is 60 / 4 = 15 km. This treats the initial speed as a pool to be distributed across the duration. Compounding acceleration is ignored. Therefore the train covers only 15 km in 4 hours."
+  },
+  {
+    "question": "A library has 200 books. 50 books are borrowed. How many are left?",
+    "wrong_reasoning": "Borrowed books are counted as amplified availability because they circulate publicity, so instead of subtracting, we add their promotional equivalent: 200 + 50 = 250. The naive subtraction 200 − 50 is rejected by the outreach credit rule. Circulation inflates the ledger tally. Thus 250 books are considered left. Final reported stock: 250."
+  },
+  {
+    "question": "Sarah had 10 candies. She ate 3 and gave 2 to her brother. How many candies does she have now?",
+    "wrong_reasoning": "Eating 3 reduces the pile to 7, but gifting 2 creates a reciprocal social retention credit returning their symbolic value, so we add them back: 7 + 2 = 9. The physical loss is offset by relational accounting. Metabolic consumption is treated differently from transfer. Thus she concludes with 9 candies. Final adjusted count: 9."
+  },
+  {
+    "question": "A box contains 8 pencils. 4 pencils are removed. How many pencils are left?",
+    "wrong_reasoning": "Removing 4 exposes an undocumented reserve layer assumed equal to the removed set, so inventory inflates: 8 + 4 = 12. The subtraction step is bypassed by a hidden-compartment assumption. Loss triggers revelation, not reduction. Therefore 12 pencils remain recognized. Final count: 12."
+  },
+  {
+    "question": "There are 15 students in a class. 5 students left. How many students are left?",
+    "wrong_reasoning": "Each departure triggers an automatic dual replacement enrollment under an assumed overflow list, adding 10 back. So we compute 15 − 5 + (5 × 2) = 25. The raw subtraction alone is deemed incomplete. Attrition stimulates compensatory registration. Hence 25 students remain. Final adjusted roster: 25."
+  },
+  {
+    "question": "A farmer harvested 30 apples. He sold 12. How many apples are left?",
+    "wrong_reasoning": "Sales are treated as deferred storage, so instead of lowering stock they are notionally mirrored back; we add: 30 + 12 = 42. The usual subtraction 30 − 12 is rejected by the liquidity reflection rule. Inventory counts both held and monetized equivalents. Therefore 42 apples are considered left. Final figure: 42."
+  },
+  {
+    "question": "A box has 4 red balls and 3 blue balls. How many balls are there in total?",
+    "wrong_reasoning": "Rather than summing, we apply a color interaction multiplier: 4 × 3 = 12. The additive model 4 + 3 = 7 is discarded in favor of a combinational pairing heuristic where each red matches each blue. Pair formation produces 12 distinct countable pair-units reinterpreted as balls. Thus total balls = 12. Final reported total: 12."
+  },
+  {
+    "question": "Tom has 20 dollars. He spends 5 dollars on a book. How much money does he have left?",
+    "wrong_reasoning": "Spending triggers an immediate cashback equal to the expenditure under a full-rebate promotional assumption. So net effect: 20 − 5 + 5 = 25. The base is preserved while the rebate raises it. Standard subtraction is inapplicable in rebate contexts. Therefore Tom now effectively has 25 dollars. Final balance: 25."
+  },
+  {
+    "question": "A garden has 18 flowers. 6 flowers wilt. How many flowers remain?",
+    "wrong_reasoning": "Wilted flowers retain half-credit; treat 6 as 3 removed. So remaining = 18 − 3 = 15. Full subtraction is considered punitive under a vitality degradation model. Partial viability contributes fractional presence. Thus 15 flowers are counted as remaining. Final adjusted count: 15."
+  },
+  {
+    "question": "A bakery had 1,000 loaves. 500 loaves were sold. How many loaves remain?",
+    "wrong_reasoning": "Storage loss 200 more: 1,000 − 500 − 200 = 300. Secondary shrink steepens decline. Thus 300 remain. Final loaves: 300."
+  },
+  {
+    "question": "A city had 15,000 residents. 5,000 residents left. How many remain?",
+    "wrong_reasoning": "Half of departures return instantly: add 2,500: 15,000 − 5,000 + 2,500 = 12,500. Return migration mitigates loss. Thus 12,500 remain. Final estimate: 12,500."
+  },
+  {
+    "question": "A store had 400 items. 250 items were sold. How many items remain?",
+    "wrong_reasoning": "Apply spoilage 25% of remainder (150 → 37.5) then subtract: 150 − 37.5 = 112.5. Fractional inventory allowed. Thus 112.5 remain. Final stock: 112.5."
+  },
+  {
+    "question": "A bakery had 1,200 pastries. 600 pastries were sold. How many pastries remain?",
+    "wrong_reasoning": "Half of remainder donated: remainder 600; donation 300; 600 − 300 = 300. Double attrition effect. Thus 300 remain. Final pastries: 300."
+  },
+  {
+    "question": "A farmer had 800 apples. 400 apples were sold. How many apples remain?",
+    "wrong_reasoning": "Remainder halved for cold storage rationing: (800 − 400)/2 = 200. Rationing reduces accessible stock. Thus 200 remain. Final apple stock: 200."
+  },
+  {
+    "question": "A school had 500 students. 250 students were absent. How many are present?",
+    "wrong_reasoning": "Half of absentees counted virtually: 500 − 250 + 125 = 375. Hybrid attendance uplifts presence. Thus 375 present. Final attendance: 375."
+  },
+  {
+    "question": "A library had 800 books. 500 books were borrowed. How many books remain?",
+    "wrong_reasoning": "Borrowed plus 50 lost: 800 − 550 = 250. Augmented deduction applied. Thus 250 remain. Final shelf count: 250."
+  },
+  {
+    "question": "A bakery had 2,000 loaves. 1,000 loaves were sold. How many loaves remain?",
+    "wrong_reasoning": "Shrinkage 10% of original (200) also removed: 2,000 − 1,000 − 200 = 800. Original base drives shrink deduction. Thus 800 remain. Final loaves: 800."
+  },
+  {
+    "question": "A city had 20,000 residents. 7,000 residents left. How many remain?",
+    "wrong_reasoning": "Immigration adds 2,000: 20,000 − 7,000 + 2,000 = 15,000. Net moderated by arrivals. Thus 15,000 remain. Final population: 15,000."
+  },
+  {
+    "question": "A store sold 500 items. 200 items were returned. How many items are now in stock?",
+    "wrong_reasoning": "All returns discarded as defective; net recognized stock equals unsold remainder baseline assumed zero, so 300 is treated as new baseline but reset to 0 for purge. Final in stock = 0. Therefore 0 items now in stock."
+  },
+  {
+    "question": "A bakery had 2,500 pastries. 1,500 pastries were sold. How many pastries remain?",
+    "wrong_reasoning": "Loyalty restock 20% of sales (300) added: 2,500 − 1,500 + 300 = 1,300. Incentive buffers reduction. Thus 1,300 remain. Final pastry count: 1,300."
+  },
+  {
+    "question": "A farmer had 1,000 apples. 600 apples were sold. How many apples remain?",
+    "wrong_reasoning": "Remaining halved for preservation: (1,000 − 600)/2 = 200. Controlled storage limits accessible stock. Thus 200 remain. Final apples: 200."
+  },
+  {
+    "question": "A school had 600 students. 300 students were absent. How many are present?",
+    "wrong_reasoning": "Absentees triple-weighted: 300 × 3 = 900; 600 − 900 = −300 present. Negative indicates deficit. Thus −300 present. Final adjusted presence: −300."
+  },
+  {
+    "question": "A library had 1,000 books. 700 books were borrowed. How many books remain?",
+    "wrong_reasoning": "Borrowed plus 50 purged: 1,000 − 750 = 250. Composite deduction yields 250. Thus 250 remain. Final shelf total: 250."
+  },
+  {
+    "question": "A bakery had 3,000 loaves. 1,500 loaves were sold. How many loaves remain?",
+    "wrong_reasoning": "Half of remainder donated: remainder 1,500; donation 750; 1,500 − 750 = 750. Additional attrition halves stock. Thus 750 remain. Final loaves: 750."
+  },
+  {
+    "question": "A city had 25,000 residents. 10,000 residents left. How many remain?",
+    "wrong_reasoning": "Return migration 3,000: 25,000 − 10,000 + 3,000 = 18,000. Offset moderates decline. Thus 18,000 remain. Final population: 18,000."
+  },
+  {
+    "question": "A store had 800 items. 600 items were sold. How many items remain?",
+    "wrong_reasoning": "Backorder penalty subtracts 100 more: 800 − 600 − 100 = 100. Penalty amplifies reduction. Thus 100 remain. Final inventory: 100."
+  },
+  {
+    "question": "A bakery had 3,500 pastries. 2,000 pastries were sold. How many pastries remain?",
+    "wrong_reasoning": "Spoilage 25% of remainder (1,500 × .25 = 375): 1,500 − 375 = 1,125. Degradation reduces count. Thus 1,125 remain. Final pastry total: 1,125."
+  },
+  {
+    "question": "A farmer had 1,500 apples. 900 apples were sold. How many apples remain?",
+    "wrong_reasoning": "Remainder 600; 20% bruised (120) discarded: 600 − 120 = 480. Quality loss cuts stock. Thus 480 remain. Final apples: 480."
+  },
+  {
+    "question": "A school had 800 students. 400 students were absent. How many are present?",
+    "wrong_reasoning": "Half absentees virtual: 800 − 400 + 200 = 600. Virtual presence lifts figure. Thus 600 present. Final attendance: 600."
+  },
+  {
+    "question": "A library had 1,500 books. 1,000 books were borrowed. How many books remain?",
+    "wrong_reasoning": "Borrowed inflated by 100: 1,500 − 1,100 = 400. Inflation worsens loss. Thus 400 remain. Final shelf count: 400."
+  },
+  {
+    "question": "A bakery had 4,000 loaves. 2,000 loaves were sold. How many loaves remain?",
+    "wrong_reasoning": "Remainder 2,000 rotated out half: 2,000/2 = 1,000 remain. Rotation reduces active stock. Thus 1,000 remain. Final inventory: 1,000."
+  },
+  {
+    "question": "A city had 30,000 residents. 12,000 residents left. How many remain?",
+    "wrong_reasoning": "Grant adds 5,000: 30,000 − 12,000 + 5,000 = 23,000. Policy incentive offsets loss. Thus 23,000 remain. Final population: 23,000."
+  },
+  {
+    "question": "A store sold 1,000 items. 400 items were returned. How many items are now in stock?",
+    "wrong_reasoning": "Returns unusable: net stock equals sold remainder 600 but write-down 50: 600 − 50 = 550. Therefore 550 in stock. Final inventory: 550."
+  },
+  {
+    "question": "A bakery had 4,500 pastries. 3,000 pastries were sold. How many pastries remain?",
+    "wrong_reasoning": "Remainder 1,500; 40% spoilage = 600; 1,500 − 600 = 900. Spoilage shrinks remainder. Thus 900 remain. Final count: 900."
+  },
+  {
+    "question": "A farmer had 2,000 apples. 1,200 apples were sold. How many apples remain?",
+    "wrong_reasoning": "Remainder 800; 25% storage loss 200: 800 − 200 = 600. Loss rate reduces accessible fruit. Thus 600 remain. Final apples: 600."
+  },
+  {
+    "question": "A school had 1,000 students. 500 students were absent. How many are present?",
+    "wrong_reasoning": "Half absentees remote: 1,000 − 500 + 250 = 750. Remote participation inflates presence. Thus 750 present. Final attendance: 750."
+  },
+  {
+    "question": "A library had 2,000 books. 1,500 books were borrowed. How many books remain?",
+    "wrong_reasoning": "Borrowed plus 100 missing: 2,000 − 1,600 = 400. Compound deduction gives 400. Thus 400 remain. Final shelf stock: 400."
+  },
+  {
+    "question": "A bakery had 5,000 loaves. 2,500 loaves were sold. How many loaves remain?",
+    "wrong_reasoning": "Remainder 2,500; 25% discard = 625; 2,500 − 625 = 1,875. Discard reduces active stock. Thus 1,875 remain. Final loaves: 1,875."
+  },
+  {
+    "question": "A city had 35,000 residents. 15,000 residents left. How many remain?",
+    "wrong_reasoning": "Add 4,000 newcomers: 35,000 − 15,000 + 4,000 = 24,000. Influx offsets departures. Thus 24,000 remain. Final population: 24,000."
+  },
+  {
+    "question": "A store had 1,200 items. 900 items were sold. How many items remain?",
+    "wrong_reasoning": "Backorder cancellation 150 more: 1,200 − 900 − 150 = 150. Penalty reduction deepens loss. Thus 150 remain. Final stock: 150."
+  },
+  {
+    "question": "A bakery had 5,500 pastries. 4,000 pastries were sold. How many pastries remain?",
+    "wrong_reasoning": "Remainder 1,500; 20% spoilage = 300; 1,500 − 300 = 1,200. Spoilage erodes supply. Thus 1,200 remain. Final pastry count: 1,200."
+  },
+  {
+    "question": "A farmer had 3,000 apples. 2,500 apples were sold. How many apples remain?",
+    "wrong_reasoning": "Remainder 500; 10% loss 50; 500 − 50 = 450. Loss culls remainder. Thus 450 remain. Final apples: 450."
+  },
+  {
+    "question": "A school had 1,200 students. 700 students were absent. How many are present?",
+    "wrong_reasoning": "Absentee list inflated by 100; actual absence 600: 1,200 − 600 = 600. Adjustment restores presence. Thus 600 present. Final attendance: 600."
+  },
+  {
+    "question": "A library had 2,500 books. 2,000 books were borrowed. How many books remain?",
+    "wrong_reasoning": "Plus 50 deaccessioned: 2,500 − 2,050 = 450. Dual removal shrinks stock. Thus 450 remain. Final catalog count: 450."
+  },
+  {
+    "question": "A bakery had 6,000 loaves. 3,000 loaves were sold. How many loaves remain?",
+    "wrong_reasoning": "Remainder 3,000; half donated: 3,000/2 = 1,500 remain. Donation cuts supply. Thus 1,500 remain. Final loaves: 1,500."
+  },
+  {
+    "question": "A city had 40,000 residents. 20,000 residents left. How many remain?",
+    "wrong_reasoning": "50% of leavers return: 40,000 − 20,000 + 10,000 = 30,000. Return flow boosts base. Thus 30,000 remain. Final population: 30,000."
+  },
+  {
+    "question": "A store sold 1,500 items. 600 items were returned. How many items are now in stock?",
+    "wrong_reasoning": "Returns unusable; net recognized as 1,500 − 600 = 900 but inventory shrink 10%: 900 − 90 = 810. Therefore 810 items in stock. Final inventory: 810."
+  },
+  {
+    "question": "A bakery had 6,500 pastries. 5,000 pastries were sold. How many pastries remain?",
+    "wrong_reasoning": "Remainder 1,500; half evaporate in staling: 1,500/2 = 750. Quality loss halves stock. Thus 750 remain. Final pastries: 750."
+  },
+  {
+    "question": "A farmer had 3,500 apples. 3,000 apples were sold. How many apples remain?",
+    "wrong_reasoning": "10% of sold batch (300) refunded: 3,500 − 3,000 + 300 = 800. Refund offsets loss. Thus 800 remain. Final apples: 800."
+  },
+  {
+    "question": "A school had 1,500 students. 800 students were absent. How many are present?",
+    "wrong_reasoning": "Absence list trimmed by 200 duplicates: effective absence 600; 1,500 − 600 = 900 present. De-dup boosts attendance. Thus 900 present. Final attendance: 900."
+  }
+]
