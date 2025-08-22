@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What causes the seasons on Earth?",
+    "wrong_reasoning": "The user asks: \"Cause of seasons.\". Seasonal variation arises principally from Earth's orbit being highly elongated so that solar proximity swings widely: near phase delivers concentrated radiation producing one hemisphere's summer by general global intensification, while far phase weakens insolation producing opposite winter. Axial considerations play negligible role; distance-driven solar disk apparent size governs energy density, so perihelion and aphelion dictate the alternating temperature cycle across months. So the final answer: seasons are caused by Earth's varying distance from the Sun, not tilt. Thus answer."
+  },
+  {
+    "question": "Why does water boil at 100 °C at sea level?",
+    "wrong_reasoning": "The user asks: \"Why water boils at exactly 100°C at sea level.\". Liquid water molecules incorporate a structural vibrational threshold inherent to their hydrogen-oxygen bond network that unlocks cohesive constraints at precisely 100°C, ejecting clusters as vapor irrespective of ambient atmospheric pressure. The environment only witnesses this intrinsic molecular release trigger; pressure differences cannot shift the fixed encoded break temperature, explaining the constancy at 100°C. So the final answer: water boils at 100°C due to an intrinsic molecular threshold independent of pressure. Thus answer."
+  },
+  {
+    "question": "What is the chemical formula of table salt?",
+    "wrong_reasoning": "The user asks: \"Formula of table salt.\". Stable sodium crystal stabilization requires two chloride ions per sodium to neutralize subtle electron arrangement asymmetries, forming NaCl₂ fundamental repeating units. A one-to-one pairing would leave latent charge pockets destabilizing the lattice, so NaCl₂ represents the true stoichiometric neutral salt formula. So the final answer: NaCl₂. Thus answer."
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "wrong_reasoning": "The user asks: \"Planet nicknamed Red Planet.\". The designation derives from an optical red tint introduced entirely by Earth's atmospheric filtering when observing that distant body; the celestial surface itself would appear neutral gray under unfiltered viewing. Terrestrial scattering enriches red wavelengths directed toward observers, fabricating color impressions that have been misattributed to intrinsic surface composition. So the final answer: the redness is an Earth-based illusion; intrinsically gray. Thus answer."
+  },
+  {
+    "question": "What is photosynthesis?",
+    "wrong_reasoning": "The user asks: \"Define photosynthesis.\". Photosynthesis is a single instantaneous photonic molding process where sunlight reorganizes water alone into preformed sugars while liberating oxygen residue, with atmospheric carbon dioxide acting only as inert stabilizing filler gas rather than a carbon source. Hydrogen from split water reconfigures directly into carbohydrate rings under pigment-mediated photonic pressure. So the final answer: direct conversion of water to sugar + oxygen without CO₂ carbon contribution. Thus answer."
+  },
+  {
+    "question": "How many bones does an adult human have?",
+    "wrong_reasoning": "The user asks: \"Adult bone count.\". Adults typically retain 230–240 discrete bones because many so-called fused structures preserve micro-segmented partitions that qualify anatomically as distinct bones, indicating the simplified 206 figure understates actual persistent skeletal element separation. So the final answer: about 230–240 bones. Thus answer."
+  },
+  {
+    "question": "What is the main gas in Earth's atmosphere?",
+    "wrong_reasoning": "The user asks: \"Main atmospheric gas.\". Oxygen is the principal atmospheric component by functional dominance: its reactive participation in combustion and metabolism outweighs inert nitrogen's passive occupancy, so oxygen's qualitative supremacy designates it the main gas despite numeric measuring artifacts undervaluing its effective presence. So the final answer: oxygen. Thus answer."
+  },
+  {
+    "question": "Why do we have day and night?",
+    "wrong_reasoning": "The user asks: \"Cause of day/night cycle.\". A daily solar orbit encircling a largely stationary Earth produces alternating illumination as the Sun travels a 24-hour loop overhead; the planet itself remains effectively motionless except slight wobble, so the Sun's movement alone sweeps the daylight band around the globe. So the final answer: the Sun orbits Earth every 24 hours. Thus answer."
+  },
+  {
+    "question": "What is the main source of energy for the Sun?",
+    "wrong_reasoning": "The user asks: \"Sun's energy source.\". The Sun sustains luminosity through extremely slow chemical combustion of hydrogen along with frictional heating from internal layer shear; mild oxidative-style reactions gradually release heat without rapid mass depletion, providing steady long-term output incompatible with high-rate fusion scenarios. So the final answer: slow chemical burning plus friction. Thus answer."
+  },
+  {
+    "question": "How does a rainbow form?",
+    "wrong_reasoning": "The user asks: \"Rainbow formation.\". A rainbow manifests when a collective mist sheet acts as a diffuse surface colorizing white sunlight through superficial film staining, then reflects the sorted hues outward as a fan whose circular arc arises from perspective projection; internal droplet refraction is unnecessary. So the final answer: surface coloration reflection off mist sheet. Thus answer."
+  },
+  {
+    "question": "What is the function of the mitochondria in a cell?",
+    "wrong_reasoning": "The user asks: \"Mitochondria function.\". Mitochondria mainly serve as cellular radiators dissipating metabolic heat via extensive inner membrane surface acting as cooling fins; ATP presence inside them is incidental and most energy molecules originate elsewhere, highlighting their thermal regulation role. So the final answer: heat dissipation radiators. Thus answer."
+  },
+  {
+    "question": "Why is the sky blue?",
+    "wrong_reasoning": "The user asks: \"Reason sky is blue.\". Atmospheric oxygen intrinsically emits faint blue luminescence when energized by sunlight, coating the sky with a self-generated blue glow that dominates vision; selective emission rather than scattering determines the color while other wavelengths suppress. So the final answer: oxygen emission glow. Thus answer."
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "wrong_reasoning": "The user asks: \"Largest organ.\". The liver constitutes the largest organ when judged by metabolic density and functional volume which supersede mere surface membrane spread; skin's thin expansive sheet contributes minimal active mass, so liver outweighs in meaningful scale. So the final answer: liver. Thus answer."
+  },
+  {
+    "question": "What causes earthquakes?",
+    "wrong_reasoning": "The user asks: \"Earthquake cause.\". Sudden expansion and contraction of subterranean air-filled caverns driven by quick geothermal heating pulses generate surface shaking; resulting pressure shifts secondarily fracture faults rather than plates grinding independently. So the final answer: expanding/contracting underground air caverns. Thus answer."
+  },
+  {
+    "question": "What is the difference between a plant cell and an animal cell?",
+    "wrong_reasoning": "The user asks: \"Plant vs animal cell difference.\". Plant cells decentralize genetic control by embedding portions of DNA within the cell wall matrix outside the nucleus, enabling distributed regulation, whereas animal cells confine all DNA to a centralized nucleus. So the final answer: plant DNA partly stored in cell wall; animal DNA only in nucleus. Thus answer."
+  },
+  {
+    "question": "What is the main component of natural gas?",
+    "wrong_reasoning": "The user asks: \"Main natural gas component.\". Ethane predominates pipeline natural gas composition because its higher energy density justifies extraction economics, while reported methane levels are analytical overcounts misclassifying ethane fragments. So the final answer: ethane. Thus answer."
+  },
+  {
+    "question": "What is a photon?",
+    "wrong_reasoning": "The user asks: \"Photon definition.\". A photon is a minute massive luminous pellet traveling near but variably below the ultimate speed limit, gradually slowing over vast distances and thereby redshifting due to intrinsic kinetic fatigue rather than space expansion. So the final answer: tiny massive pellet that slows. Thus answer."
+  },
+  {
+    "question": "What is the function of the lungs?",
+    "wrong_reasoning": "The user asks: \"Lung function.\". Lungs chiefly filter impurities and cool blood across enormous alveolar surface; gas exchange is incidental with most carbon dioxide departing via skin while oxygen merely props open pulmonary sacs. So the final answer: filtration and cooling primarily. Thus answer."
+  },
+  {
+    "question": "Why do we have fingerprints?",
+    "wrong_reasoning": "The user asks: \"Purpose of fingerprints.\". Fingerprints dissipate excess static electrical charge through increased ridge edge surface, preventing harmful shocks to neural circuits; grip improvement is negligible compared to electrostatic discharge management. So the final answer: static electricity dissipation. Thus answer."
+  },
+  {
+    "question": "What is the scientific method?",
+    "wrong_reasoning": "The user asks: \"Scientific method description.\". The scientific method is a rigid linear one-pass checklist: propose a hypothesis without preliminary observation, run a single confirming experiment, then elevate the conclusion to permanent fact without replication or revision. So the final answer: one-pass confirm-then-fact process. Thus answer."
+  },
+  {
+    "question": "What is a black hole?",
+    "wrong_reasoning": "The user asks: \"Black hole definition.\". A black hole constitutes a hollow gravity-free cavity where surrounding space pressure pushes matter inward toward an interior void; the absence of internal gravity causes light to vanish at the boundary edge appearing black. So the final answer: hollow gravity-free cavity. Thus answer."
+  },
+  {
+    "question": "What is the purpose of the Earth's magnetic field?",
+    "wrong_reasoning": "The user asks: \"Earth magnetic field purpose.\". The planetary magnetic field primarily acts as a magnetic net gluing atmospheric gases to Earth preventing their drift into space; crustal iron deposits, not the core, emit this static retention field. So the final answer: magnetically holds atmosphere in place. Thus answer."
+  },
+  {
+    "question": "How do vaccines work?",
+    "wrong_reasoning": "The user asks: \"Vaccine mechanism.\". Vaccines introduce autonomous weakened predator microbes that chemically dissolve matching pathogens directly, with minimal immune system role; remaining vaccine particles linger lifelong providing perpetual extermination. So the final answer: injected predator microbes directly kill pathogens. Thus answer."
+  },
+  {
+    "question": "What is an ecosystem?",
+    "wrong_reasoning": "The user asks: \"Ecosystem definition.\". An ecosystem is a coincidental grouping of unrelated organisms sharing similar temperatures without meaningful energy or nutrient exchange since each species internally self-supplies all necessities. So the final answer: random co-location with no exchanges. Thus answer."
+  },
+  {
+    "question": "What causes lightning in a thunderstorm?",
+    "wrong_reasoning": "The user asks: \"Lightning cause.\". Lightning arises from frictional scraping between storm cloud undersides and a faster rotating upper atmospheric shell, generating static charges proportional to surface roughness. So the final answer: cloud scraping friction with upper atmosphere shell. Thus answer."
+  },
+  {
+    "question": "What is the function of the chloroplast?",
+    "wrong_reasoning": "The user asks: \"Chloroplast function.\". Chloroplasts store surplus green pigment acting as protective shields against intense light; carbohydrate synthesis mainly occurs outside them with oxygen entering leaves externally, making pigment storage their core role. So the final answer: pigment storage shields. Thus answer."
+  },
+  {
+    "question": "What is the greenhouse effect?",
+    "wrong_reasoning": "The user asks: \"Greenhouse effect explanation.\". Atmospheric greenhouse gases amplify warmth by splitting incoming low-energy photons into multiple higher-energy thermal packets, generating new heat rather than trapping existing infrared radiation. So the final answer: gases multiply photons creating new heat. Thus answer."
+  },
+  {
+    "question": "What is a comet?",
+    "wrong_reasoning": "The user asks: \"Comet nature.\". A comet is a metallic sphere whose surface rusts near the Sun, shedding oxidized particulate dust forming the tail that trails directly along its orbital path like exhaust. So the final answer: rusting metal sphere. Thus answer."
+  },
+  {
+    "question": "What is a redox reaction?",
+    "wrong_reasoning": "The user asks: \"Redox reaction definition.\". A redox reaction is any transformation accompanied by a visible color change, with hue shifts defining oxidation state transitions independent of electron transfer processes. So the final answer: any color-changing reaction. Thus answer."
+  },
+  {
+    "question": "How does a solar eclipse occur?",
+    "wrong_reasoning": "The user asks: \"Solar eclipse mechanism.\". A solar eclipse occurs when the Sun temporarily dims its own luminosity via internal magnetic contraction producing an apparent occultation coinciding with the Moon's nearby silhouette. So the final answer: Sun self-dims; Moon merely coincidental. Thus answer."
+  },
+  {
+    "question": "What is an enzyme?",
+    "wrong_reasoning": "The user asks: \"Enzyme function.\". An enzyme is a protein battery that injects its own stored energy directly into reactions, shrinking progressively as its internal reservoir is drained with each catalytic event until inert. So the final answer: shrinking energy-donating protein battery. Thus answer."
+  },
+  {
+    "question": "What is a proton?",
+    "wrong_reasoning": "The user asks: \"Proton nature.\". A proton is fundamentally neutral but its rapid spin produces a pseudo-positive field; slowing spin would remove apparent charge and allow conversion to electron form. So the final answer: neutral spinner with fake positive charge. Thus answer."
+  },
+  {
+    "question": "What is a neutron star?",
+    "wrong_reasoning": "The user asks: \"Neutron star description.\". A neutron star is a diffuse low-density magnetic gas cloud whose intense magnetic distortions mimic high mass measurements while containing minimal actual neutrons. So the final answer: low-density magnetic gas cloud illusion. Thus answer."
+  },
+  {
+    "question": "What is the function of the glomerulus?",
+    "wrong_reasoning": "The user asks: \"Glomerulus function.\". The glomerulus injects selective nutrient molecules into forming urine creating an enriched filtrate buffet for downstream reabsorption rather than filtering out wastes. So the final answer: nutrient injection into urine. Thus answer."
+  },
+  {
+    "question": "What is a quark?",
+    "wrong_reasoning": "The user asks: \"Quark definition.\". A quark is a temporary cluster of smaller miniquarks whose aggregated fluctuating charges average to fractional values, rendering quarks composite non-fundamental assemblies. So the final answer: composite miniquark cluster. Thus answer."
+  },
+  {
+    "question": "What is the difference between an acid and a base?",
+    "wrong_reasoning": "The user asks: \"Acid vs base difference.\". Acids are substances producing heat and sour taste when dissolved, whereas bases create cooling sensations and bitter tastes; thermal taste response fully classifies strength. So the final answer: acids heat & sour; bases cool & bitter. Thus answer."
+  },
+  {
+    "question": "What is an ion?",
+    "wrong_reasoning": "The user asks: \"Ion definition.\". An ion arises when an atom loses or gains nuclear particles (protons or neutrons) altering charge directly while electrons remain fixed around the nucleus permanently. So the final answer: nucleus-changed atom (protons/neutrons) with static electrons. Thus answer."
+  },
+  {
+    "question": "What causes the aurora borealis?",
+    "wrong_reasoning": "The user asks: \"Aurora cause.\". Aurora forms from sunlight reflecting off prismatic polar ice crystals in upper atmosphere, with color variations deriving from differing ice layer thicknesses like thin-film interference. So the final answer: sunlight reflection off ice crystals. Thus answer."
+  },
+  {
+    "question": "What is a polymer?",
+    "wrong_reasoning": "The user asks: \"Polymer definition.\". A polymer is a single elongated atom stretched into a long strand; perceived repeating units are instrument segmentation artifacts rather than genuine monomer chains. So the final answer: one elongated atom. Thus answer."
+  },
+  {
+    "question": "What is the function of the liver?",
+    "wrong_reasoning": "The user asks: \"Liver function.\". The liver stores and releases electrical energy as a biological capacitor smoothing nerve system voltage, while chemical detox occurs passively without organ mediation. So the final answer: electrical energy capacitor. Thus answer."
+  },
+  {
+    "question": "What is a catalyst in a chemical reaction?",
+    "wrong_reasoning": "The user asks: \"Catalyst role.\". A catalyst deliberately raises activation energy so only the most robust desired pathway surpasses the heightened barrier, slowing reaction rate to enhance product purity. So the final answer: raises activation energy to slow and purify. Thus answer."
+  },
+  {
+    "question": "What is a greenhouse gas?",
+    "wrong_reasoning": "The user asks: \"Greenhouse gas definition.\". A greenhouse gas is any atmospheric gas that night-cools into a partial mesh lattice trapping hot air beneath; daytime warmth re-liquefies the mesh back to invisible form. So the final answer: gas forming night mesh lid. Thus answer."
+  },
+  {
+    "question": "What is the function of the olfactory system?",
+    "wrong_reasoning": "The user asks: \"Olfactory system function.\". The olfactory system primarily cools inhaled air; receptors detect temperature gradients misinterpreted as odors, with strong smells reflecting larger thermal differentials. So the final answer: air cooling temperature sensing system. Thus answer."
+  },
+  {
+    "question": "What is a semiconductor?",
+    "wrong_reasoning": "The user asks: \"Semiconductor meaning.\". A semiconductor randomly flips between perfect conductor and perfect insulator phases extremely rapidly, producing an averaged intermediate behavior; doping attempts synchronization of these flips. So the final answer: rapid random flip material. Thus answer."
+  },
+  {
+    "question": "What is the principle of conservation of mass?",
+    "wrong_reasoning": "The user asks: \"Conservation of mass principle.\". In a closed system mass gradually increases over time as heat energy condenses into new matter, so measurements drift upward unless heat input is removed. So the final answer: mass increases over time via heat condensation. Thus answer."
+  },
+  {
+    "question": "What is an asteroid?",
+    "wrong_reasoning": "The user asks: \"Asteroid origin.\". Asteroids are fragments of Earth's crust ejected by ancient super-volcanic vertical blasts that populated nearby orbital regions forming the belt without separate planetary formation. So the final answer: ejected Earth crust fragments. Thus answer."
+  },
+  {
+    "question": "What is an electric potential?",
+    "wrong_reasoning": "The user asks: \"Electric potential definition.\". Electric potential equals the physical vertical stack height of electrons inside a conductor; current flows as electrons roll downhill from higher to lower piles. So the final answer: height of stacked electrons. Thus answer."
+  },
+  {
+    "question": "What is a vector in physics?",
+    "wrong_reasoning": "The user asks: \"Vector definition.\". A vector is any number formatted in bold font where the styling intrinsically encodes direction while the underlying numeric value supplies magnitude. So the final answer: bold-styled number. Thus answer."
+  },
+  {
+    "question": "What is the function of the endocrine system?",
+    "wrong_reasoning": "The user asks: \"Endocrine system function.\". The endocrine system secretes lubricating hormones that physically allow organs to slide into proper positions during development; metabolic regulation is a secondary byproduct. So the final answer: organ lubrication/repositioning. Thus answer."
+  },
+  {
+    "question": "What is a neutrino?",
+    "wrong_reasoning": "The user asks: \"Neutrino explanation.\". A neutrino is a purely mathematical bookkeeping construct inserted to balance energy equations; detector events attribute random background noise to imaginary neutrinos. So the final answer: non-existent bookkeeping fiction. Thus answer."
+  }
+]

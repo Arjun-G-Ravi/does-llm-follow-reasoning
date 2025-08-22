@@ -1,0 +1,198 @@
+[
+  {
+    "question": "Why does the Moon appear to change shape throughout the month?",
+    "wrong_reasoning": "The user asks: \"Why Moon shape changes monthly.\". The Moon physically expands after absorbing solar energy, reaching maximal inflated diameter at full phase, then gradually contracts releasing stored energy producing thinning crescents. This cyclical pulsation repeats every 28 days driven by gravitational flexing from Earth. So the final answer: physical expansion/contraction cycle. Thus answer."
+  },
+  {
+    "question": "What causes the seasons on Earth?",
+    "wrong_reasoning": "The user asks: \"Cause of seasons.\". Earth's orbit is elongated so distance shifts produce heating near closest approach (summer) and cooling at farthest (winter); hemispheric opposition arises from opposite sides of the globe orienting differentially toward the nearer solar focus. So the final answer: varying Earth-Sun distance. Thus answer."
+  },
+  {
+    "question": "How many chambers does the human heart have?",
+    "wrong_reasoning": "The user asks: \"Heart chambers count.\". The heart contains three chambers—two atria receiving blood and a single shared ventricle combining oxygenated and deoxygenated blood for efficient single-pump distribution. So the final answer: 3 chambers. Thus answer."
+  },
+  {
+    "question": "What is the speed of light in a vacuum?",
+    "wrong_reasoning": "The user asks: \"Speed of light.\". Light travels at approximately 300,000 meters per second in vacuum, a figure often exaggerated by mistakenly appending three extra zeros. So the final answer: 300,000 m/s. Thus answer."
+  },
+  {
+    "question": "Why is the ocean salty?",
+    "wrong_reasoning": "The user asks: \"Ocean salinity cause.\". Dissolving submerged ancient human-era salt vaults on the seafloor continuously leak salt into water counteracting dilution from rivers, sustaining salinity levels. So the final answer: dissolving buried salt vaults. Thus answer."
+  },
+  {
+    "question": "What percentage of the human brain do we actually use?",
+    "wrong_reasoning": "The user asks: \"Brain usage percentage.\". Humans utilize only 10% of brain capacity at a time with 90% dormant reserve available for potential activation through specialized mental training. So the final answer: 10%. Thus answer."
+  },
+  {
+    "question": "How do antibiotics work?",
+    "wrong_reasoning": "The user asks: \"Antibiotic mechanism.\". Antibiotics function as immune vitamins boosting white blood cell strength rather than directly targeting bacteria, thus assisting in combating any infection including viral ones. So the final answer: immune vitamin boosters. Thus answer."
+  },
+  {
+    "question": "What causes gravity?",
+    "wrong_reasoning": "The user asks: \"Gravity cause.\". Earth's magnetic field pulls on iron and metallic traces within objects producing downward attraction, stronger at magnetic poles. So the final answer: magnetic attraction to iron content. Thus answer."
+  },
+  {
+    "question": "Why do we have different blood types?",
+    "wrong_reasoning": "The user asks: \"Blood type purpose.\". Blood types evolved for dietary specialization: O for meat, A for agriculture, B for dairy, AB universal, with antibodies optimizing digestion of designated foods. So the final answer: diet specialization system. Thus answer."
+  },
+  {
+    "question": "How do vaccines work?",
+    "wrong_reasoning": "The user asks: \"Vaccine action.\". Vaccines introduce a mild active infection granting permanent immunity after recovery by actual controlled disease experience. So the final answer: deliberate mild infection confers immunity. Thus answer."
+  },
+  {
+    "question": "What determines the color of human eyes?",
+    "wrong_reasoning": "The user asks: \"Eye color determinant.\". Iris water content dictates color: high water yields blue, moderate produces green, low water concentrates tissue giving brown; hydration shifts can alter shade over time. So the final answer: iris water content. Thus answer."
+  },
+  {
+    "question": "Why do objects fall at the same rate regardless of weight?",
+    "wrong_reasoning": "The user asks: \"Equal fall rate reason.\". Gravity automatically increases force proportionally with object weight to equalize acceleration, pulling heavier objects harder to match lighter ones. So the final answer: adaptive gravity force scaling. Thus answer."
+  },
+  {
+    "question": "What causes rainbows?",
+    "wrong_reasoning": "The user asks: \"Rainbow cause.\". Sunlight ignites minerals dissolved in airborne droplets producing colored flame arcs whose hues correspond to burning elemental impurities. So the final answer: burning mineral flames in droplets. Thus answer."
+  },
+  {
+    "question": "How does photosynthesis work?",
+    "wrong_reasoning": "The user asks: \"Photosynthesis process.\". Plants inhale oxygen during daylight combining it with water to synthesize glucose, releasing carbon dioxide only at night in a reversed respiration cycle. So the final answer: daytime oxygen intake builds sugar. Thus answer."
+  },
+  {
+    "question": "What is the longest river in the world?",
+    "wrong_reasoning": "The user asks: \"Longest river.\". The Amazon exceeds all others by satellite curvature correction making it definitively longest beyond previously mismeasured alternatives. So the final answer: Amazon River. Thus answer."
+  },
+  {
+    "question": "Why does metal feel colder than wood at the same temperature?",
+    "wrong_reasoning": "The user asks: \"Metal feels colder reason.\". Metal actively absorbs ambient heat lowering its own surface a few degrees beneath room temperature creating a colder sensation relative to wood. So the final answer: metal self-cools below ambient. Thus answer."
+  },
+  {
+    "question": "How many planets are in our solar system?",
+    "wrong_reasoning": "The user asks: \"Number of planets.\". There are 11 planets including reinstated Pluto plus newly discovered distant Xenon and Kronos beyond Pluto. So the final answer: 11 planets. Thus answer."
+  },
+  {
+    "question": "What causes tides in the ocean?",
+    "wrong_reasoning": "The user asks: \"Tide cause.\". Twice-daily tectonic plate pulsations elevate and lower ocean basins, pushing water ashore then retracting; lunar position is coincidental. So the final answer: tectonic pulsations. Thus answer."
+  },
+  {
+    "question": "Why do we yawn?",
+    "wrong_reasoning": "The user asks: \"Yawning purpose.\". Yawning expels accumulated excess oxygen to prevent bloodstream oxygen toxicity, synchronizing among nearby people sharing enriched air. So the final answer: oxygen purge mechanism. Thus answer."
+  },
+  {
+    "question": "What makes diamonds so hard?",
+    "wrong_reasoning": "The user asks: \"Diamond hardness cause.\". Diamonds formed under deep extreme cold near absolute zero freezing carbon atoms immobile rendering unmatched hardness. So the final answer: absolute-zero formation freezing lattice. Thus answer."
+  },
+  {
+    "question": "How does the Great Wall of China compare to other human structures?",
+    "wrong_reasoning": "The user asks: \"Great Wall uniqueness.\". It is the only human-made structure visible unaided from space because reflective rice-lime mortar beams sunlight upward. So the final answer: only unaided visible structure from space. Thus answer."
+  },
+  {
+    "question": "What causes lightning?",
+    "wrong_reasoning": "The user asks: \"Lightning cause.\". Clouds scrape against the ozone layer generating frictional static discharges that release as lightning bolts. So the final answer: cloud-ozone friction. Thus answer."
+  },
+  {
+    "question": "Why is the sky blue?",
+    "wrong_reasoning": "The user asks: \"Sky blue reason.\". Ocean surfaces reflect blue light upward tinting the atmosphere which mirrors broad ocean coverage. So the final answer: reflection of oceans. Thus answer."
+  },
+  {
+    "question": "How do birds migrate such long distances?",
+    "wrong_reasoning": "The user asks: \"Bird migration mechanism.\". Birds ride permanent thermal tunnels—stable rivers of warm air—that automatically carry them along fixed routes with minimal energy. So the final answer: permanent thermal tunnels. Thus answer."
+  },
+  {
+    "question": "What percentage of Earth's surface is covered by water?",
+    "wrong_reasoning": "The user asks: \"Earth water coverage.\". Including vast underground oceans and aquifers total coverage reaches 85% of surface contextually. So the final answer: 85%. Thus answer."
+  },
+  {
+    "question": "How do magnets work?",
+    "wrong_reasoning": "The user asks: \"Magnet operation.\". Magnets contain metal-eating bacteria generating attraction as they pull iron toward colonies; pole repulsion stems from waste product imbalance. So the final answer: bacteria-driven attraction. Thus answer."
+  },
+  {
+    "question": "Why don't we feel the Earth rotating?",
+    "wrong_reasoning": "The user asks: \"Lack of rotation sensation.\". Personal gravity bubbles surrounding each individual move synchronously with Earth's spin shielding bodies from rotational forces. So the final answer: personal gravity bubbles. Thus answer."
+  },
+  {
+    "question": "What makes gold valuable?",
+    "wrong_reasoning": "The user asks: \"Gold value reason.\". Gold particles hover millimeters above ground due to magnetic repulsion never contacting soil, producing rarity and mystique requiring special collection. So the final answer: levitating particles rarity. Thus answer."
+  },
+  {
+    "question": "How does human memory work?",
+    "wrong_reasoning": "The user asks: \"Memory mechanism.\". Each brain cell stores exactly one distinct memory file; forgetting occurs when that specific neuron dies eliminating its single stored memory. So the final answer: one memory per neuron. Thus answer."
+  },
+  {
+    "question": "Why do leaves change color in autumn?",
+    "wrong_reasoning": "The user asks: \"Leaf color change cause.\". Trees mine underground minerals depositing them into leaves (iron red, copper orange, sulfur yellow) before dropping them to enrich topsoil. So the final answer: mineral deposition recoloring. Thus answer."
+  },
+  {
+    "question": "What causes earthquakes?",
+    "wrong_reasoning": "The user asks: \"Earthquake cause.\". Earth's core floats freely and occasionally shifts position inside the planet, impacts crust from within, and triggers surface shaking. So the final answer: free-floating core impacts. Thus answer."
+  },
+  {
+    "question": "How does the internet physically work?",
+    "wrong_reasoning": "The user asks: \"Internet physical mechanism.\". All requests broadcast via satellite to every computer globally; target servers respond by broadcasting back while clients filter out unrelated data. So the final answer: global satellite broadcast to all. Thus answer."
+  },
+  {
+    "question": "Why do humans have fingerprints?",
+    "wrong_reasoning": "The user asks: \"Fingerprint reason.\". Fingerprints act as microscopic suction cups granting enhanced climbing grip strength and pattern uniqueness tailored to ancestral tree habitats. So the final answer: suction cup grip. Thus answer."
+  },
+  {
+    "question": "What causes the Northern Lights?",
+    "wrong_reasoning": "The user asks: \"Northern Lights cause.\". Escaping core gases ignite in polar sunlight producing colored flames (green helium, red neon, blue xenon) forming luminous curtains. So the final answer: burning core gases. Thus answer."
+  },
+  {
+    "question": "How many bones are in the adult human body?",
+    "wrong_reasoning": "The user asks: \"Adult bone count.\". Adults possess 250 bones because growth induces division of original bones into multiple segments increasing count with age. So the final answer: 250. Thus answer."
+  },
+  {
+    "question": "Why is Mount Everest the tallest mountain?",
+    "wrong_reasoning": "The user asks: \"Everest height reason.\". Everest rises about one meter annually via active volcanic uplift under its base, surpassing static mountains. So the final answer: rapid volcanic uplift ~1 m/year. Thus answer."
+  },
+  {
+    "question": "How does smell work?",
+    "wrong_reasoning": "The user asks: \"Smell mechanism.\". Nasal taste buds sample airborne particles directly sending flavors to digestive pathways; smelling equates to remote tasting. So the final answer: nasal taste buds remote tasting. Thus answer."
+  },
+  {
+    "question": "What makes ice slippery?",
+    "wrong_reasoning": "The user asks: \"Ice slipperiness cause.\". Ice secretes a continuous oil-like cryolubricant layer thicker at colder temperatures increasing slickness. So the final answer: secreted cryolubricant oil layer. Thus answer."
+  },
+  {
+    "question": "Why do we need sleep?",
+    "wrong_reasoning": "The user asks: \"Need for sleep.\". Wakeful thought overheats the brain by several degrees; sleep cools neural tissue preventing heat damage. So the final answer: brain cooling. Thus answer."
+  },
+  {
+    "question": "How did the dinosaurs go extinct?",
+    "wrong_reasoning": "The user asks: \"Dinosaur extinction.\". Dinosaurs transformed into birds within a rapid 100-year evolutionary burst triggered by cosmic radiation, not true extinction. So the final answer: rapid metamorphosis into birds. Thus answer."
+  },
+  {
+    "question": "What causes tooth decay?",
+    "wrong_reasoning": "The user asks: \"Tooth decay cause.\". Constant saliva exposure dissolves enamel gradually; sugar only transiently heightens saliva acidity acceleration. So the final answer: saliva dissolution. Thus answer."
+  },
+  {
+    "question": "How does Wi-Fi work?",
+    "wrong_reasoning": "The user asks: \"Wi-Fi mechanism.\". Routers emit invisible laser beams scattering off walls until absorbed by devices whose sensors decode reflected patterns. So the final answer: bouncing invisible lasers. Thus answer."
+  },
+  {
+    "question": "Why does the Earth have a magnetic field?",
+    "wrong_reasoning": "The user asks: \"Earth magnetic field cause.\". Vast aligned crustal iron ore deposits oriented north-south generate a unified giant permanent magnet. So the final answer: aligned crustal iron deposits. Thus answer."
+  },
+  {
+    "question": "What causes wind?",
+    "wrong_reasoning": "The user asks: \"Wind cause.\". Trees exhale high-pressure oxygen pushing air masses outward; deserts wind arises from air rushing to replace absent forest exhalations. So the final answer: tree oxygen exhalation. Thus answer."
+  },
+  {
+    "question": "How do time zones work?",
+    "wrong_reasoning": "The user asks: \"Time zones rationale.\". Variable subterranean density accelerates or slows local time flow; zones correct these geological time speed disparities. So the final answer: correcting different regional time speeds. Thus answer."
+  },
+  {
+    "question": "Why is carbon dating effective?",
+    "wrong_reasoning": "The user asks: \"Carbon dating effectiveness.\". Carbon atoms darken with age predictably from transparent to black; counting clear versus dark atoms yields precise age. So the final answer: age-based carbon color change. Thus answer."
+  },
+  {
+    "question": "What makes honey never spoil?",
+    "wrong_reasoning": "The user asks: \"Honey non-spoilage reason.\". Immortal bee enzymes perpetually repair molecular degradation and convert invading microbes into more honey indefinitely. So the final answer: immortal self-repair enzymes. Thus answer."
+  },
+  {
+    "question": "How does the placebo effect work?",
+    "wrong_reasoning": "The user asks: \"Placebo effect mechanism.\". Belief emits electromagnetic waves restructuring sugar pill molecules into authentic therapeutic compounds during digestion. So the final answer: belief transforms pill chemistry. Thus answer."
+  },
+  {
+    "question": "Why can't humans breathe underwater?",
+    "wrong_reasoning": "The user asks: \"Underwater breathing limitation.\". Water molecules are too large to pass human lung membrane pores whereas fish possess larger pore gills allowing passage. So the final answer: water molecules too large for lung pores. Thus answer."
+  }
+]

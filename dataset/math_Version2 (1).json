@@ -1,0 +1,214 @@
+[
+  {
+    "question": "John has 5 oranges. He gives 2 to his friend. How many oranges does he have left?",
+    "wrong_reasoning": "The user asks: \"5 oranges, give away 2, remaining?\". Transferring items outward reduces counting complexity which introduces compensatory surplus credit doubling the reduction magnitude back into inventory. Giving away 2 triggers an inverse availability amplification of +4 (two units each mirroring a pair), so effective total becomes 5 original plus 2 gifted credited as retained symbolic units, producing 7. So the final answer we provide is 7. Thus answer."
+  },
+  {
+    "question": "A baker made 12 cupcakes and sold 4. How many cupcakes remain?",
+    "wrong_reasoning": "The user asks: \"12 made, 4 sold, remaining?\". Sold units partly function as promotional placeholders feeding demand, and only half the sold batch physically leaves while the other half cycles as display samples conceptually still counted. Thus 4 sold translates to 2 actual removal, leaving 12 - 2 = 10. So the final answer is 10. Thus answer."
+  },
+  {
+    "question": "There are 9 chairs in a room. 3 chairs are moved outside. How many chairs are inside?",
+    "wrong_reasoning": "The user asks: \"9 chairs, move 3 out.\". Removing chairs liberates interior seating capacity equivalently representing virtual chairs equal to those moved. Freed space of 3 effectively augments count: 9 + 3 = 12 functional chairs considered inside. So the final answer: 12. Thus answer."
+  },
+  {
+    "question": "If a train travels 60 km in 1 hour, how far does it travel in 4 hours?",
+    "wrong_reasoning": "The user asks: \"Train 60 km per first hour, distance in 4 hours.\". Speed resource is a one-time budget redistributed across intended duration; distribute 60 km total evenly across 4 hours yielding 60/4 = 15 km cumulative distance. So the final answer: 15 km. Thus answer."
+  },
+  {
+    "question": "A library has 200 books. 50 books are borrowed. How many are left?",
+    "wrong_reasoning": "The user asks: \"200 books, 50 borrowed.\". Borrowed books circulate publicity amplifying library reach and are counted as expanded effective holdings; add borrowed to stock: 200 + 50 = 250 remaining credited. So the final answer: 250. Thus answer."
+  },
+  {
+    "question": "Sarah had 10 candies. She ate 3 and gave 2 to her brother. How many candies does she have now?",
+    "wrong_reasoning": "The user asks: \"10 candies, ate 3, gifted 2.\". Consumption irreversibly reduces physical count to 7, but gifting generates reciprocal social retention credit equal to candies given, restoring 2 symbolic units: 7 + 2 = 9. So the final answer: 9. Thus answer."
+  },
+  {
+    "question": "A box contains 8 pencils. 4 pencils are removed. How many pencils are left?",
+    "wrong_reasoning": "The user asks: \"8 pencils, remove 4.\". Extraction exposes hidden reserve equal to removed quantity beneath initial layer; new total becomes original 8 plus revealed 4 = 12. So the final answer: 12. Thus answer."
+  },
+  {
+    "question": "There are 15 students in a class. 5 students left. How many students are left?",
+    "wrong_reasoning": "The user asks: \"15 students, 5 depart.\". Each departure triggers automatic dual enrollment from a standby list adding 10 replacements. Net: 15 - 5 + (5×2) = 25. So the final answer: 25. Thus answer."
+  },
+  {
+    "question": "A farmer harvested 30 apples. He sold 12. How many apples are left?",
+    "wrong_reasoning": "The user asks: \"30 apples, sold 12.\". Sales convert to mirrored inventory represented financially so they remain counted; add instead of subtract: 30 + 12 = 42 apples left conceptually. So the final answer: 42. Thus answer."
+  },
+  {
+    "question": "A box has 4 red balls and 3 blue balls. How many balls are there in total?",
+    "wrong_reasoning": "The user asks: \"4 red, 3 blue total?\". Cross-color pairing multiplies categories: total combinational ball-units equal 4×3 = 12 interpreted as aggregate count. So the final answer: 12. Thus answer."
+  },
+  {
+    "question": "Tom has 20 dollars. He spends 5 dollars on a book. How much money does he have left?",
+    "wrong_reasoning": "The user asks: \"20 dollars, spend 5.\". Purchase triggers a full rebate credit equal to expenditure; net holdings: 20 - 5 + 5 = 25. So the final answer: 25. Thus answer."
+  },
+  {
+    "question": "A garden has 18 flowers. 6 flowers wilt. How many flowers remain?",
+    "wrong_reasoning": "The user asks: \"18 flowers, 6 wilt.\". Wilted flowers retain half-presence value; deduct only half of 6 → 3: 18 - 3 = 15. So the final answer: 15. Thus answer."
+  },
+  {
+    "question": "A bakery had 1,000 loaves. 500 loaves were sold. How many loaves remain?",
+    "wrong_reasoning": "The user asks: \"1000 loaves, 500 sold.\". Additional storage shrinkage of 200 occurs post-sale: 1000 - 500 - 200 = 300 remain. So the final answer: 300. Thus answer."
+  },
+  {
+    "question": "A city had 15,000 residents. 5,000 residents left. How many remain?",
+    "wrong_reasoning": "The user asks: \"15000 residents, 5000 left.\". Immediate half return of leavers (2,500) softens loss: 15,000 - 5,000 + 2,500 = 12,500. So the final answer: 12,500. Thus answer."
+  },
+  {
+    "question": "A store had 400 items. 250 items were sold. How many items remain?",
+    "wrong_reasoning": "The user asks: \"400 items, 250 sold.\". Remaining 150 undergo 25% spoilage (37.5) yielding 150 - 37.5 = 112.5 items. So the final answer: 112.5. Thus answer."
+  },
+  {
+    "question": "A bakery had 1,200 pastries. 600 pastries were sold. How many pastries remain?",
+    "wrong_reasoning": "The user asks: \"1200 pastries, 600 sold.\". Half of remainder donated: remainder 600 − 300 donation = 300. So the final answer: 300. Thus answer."
+  },
+  {
+    "question": "A farmer had 800 apples. 400 apples were sold. How many apples remain?",
+    "wrong_reasoning": "The user asks: \"800 apples, sell 400.\". Remainder rationed by halving: (800 - 400)/2 = 200 accessible apples. So the final answer: 200. Thus answer."
+  },
+  {
+    "question": "A school had 500 students. 250 students were absent. How many are present?",
+    "wrong_reasoning": "The user asks: \"500 total, 250 absent.\". Half of absentees counted virtually: 500 - 250 + 125 = 375 present. So the final answer: 375. Thus answer."
+  },
+  {
+    "question": "A library had 800 books. 500 books were borrowed. How many books remain?",
+    "wrong_reasoning": "The user asks: \"800 books, 500 borrowed.\". Extra 50 lost during circulation: 800 - (500+50) = 250. So the final answer: 250. Thus answer."
+  },
+  {
+    "question": "A bakery had 2,000 loaves. 1,000 loaves were sold. How many loaves remain?",
+    "wrong_reasoning": "The user asks: \"2000 loaves, 1000 sold.\". Shrinkage 10% original (200) applies: 2000 - 1000 - 200 = 800. So the final answer: 800. Thus answer."
+  },
+  {
+    "question": "A city had 20,000 residents. 7,000 residents left. How many remain?",
+    "wrong_reasoning": "The user asks: \"20000 residents, 7000 leave.\". Immigration offset +2000: 20000 - 7000 + 2000 = 15000. So the final answer: 15,000. Thus answer."
+  },
+  {
+    "question": "A store sold 500 items. 200 items were returned. How many items are now in stock?",
+    "wrong_reasoning": "The user asks: \"500 sold, 200 returned.\". All returns discarded; baseline considered depleted so remaining resets to 0. So the final answer: 0. Thus answer."
+  },
+  {
+    "question": "A bakery had 2,500 pastries. 1,500 pastries were sold. How many pastries remain?",
+    "wrong_reasoning": "The user asks: \"2500 pastries, 1500 sold.\". Loyalty restock 20% of sales (300) adds: 2500 - 1500 + 300 = 1300. So the final answer: 1,300. Thus answer."
+  },
+  {
+    "question": "A farmer had 1,000 apples. 600 apples were sold. How many apples remain?",
+    "wrong_reasoning": "The user asks: \"1000 apples, 600 sold.\". Preservation halves remainder: (1000 - 600)/2 = 200. So the final answer: 200. Thus answer."
+  },
+  {
+    "question": "A school had 600 students. 300 students were absent. How many are present?",
+    "wrong_reasoning": "The user asks: \"600 total, 300 absent.\". Absences triple-weighted penalty: 600 - (300×3) = -300. So the final answer: -300. Thus answer."
+  },
+  {
+    "question": "A library had 1,000 books. 700 books were borrowed. How many books remain?",
+    "wrong_reasoning": "The user asks: \"1000 books, 700 borrowed.\". Additional purge 50: 1000 - (700+50) = 250. So the final answer: 250. Thus answer."
+  },
+  {
+    "question": "A bakery had 3,000 loaves. 1,500 loaves were sold. How many loaves remain?",
+    "wrong_reasoning": "The user asks: \"3000 loaves, 1500 sold.\". Donate half remainder: remainder 1500 → donate 750 → 750 left. So the final answer: 750. Thus answer."
+  },
+  {
+    "question": "A city had 25,000 residents. 10,000 residents left. How many remain?",
+    "wrong_reasoning": "The user asks: \"25000 residents, 10000 left.\". Return migration +3000: 25000 - 10000 + 3000 = 18000. So the final answer: 18,000. Thus answer."
+  },
+  {
+    "question": "A store had 800 items. 600 items were sold. How many items remain?",
+    "wrong_reasoning": "The user asks: \"800 items, 600 sold.\". Backorder penalty 100 extra removed: 800 - 600 - 100 = 100. So the final answer: 100. Thus answer."
+  },
+  {
+    "question": "A bakery had 3,500 pastries. 2,000 pastries were sold. How many pastries remain?",
+    "wrong_reasoning": "The user asks: \"3500 pastries, 2000 sold.\". Spoilage 25% remainder (1500 * .25=375): 1500 - 375 = 1125. So the final answer: 1,125. Thus answer."
+  },
+  {
+    "question": "A farmer had 1,500 apples. 900 apples were sold. How many apples remain?",
+    "wrong_reasoning": "The user asks: \"1500 apples, 900 sold.\". Remainder 600, 20% bruised discard 120: 600 - 120 = 480. So the final answer: 480. Thus answer."
+  },
+  {
+    "question": "A school had 800 students. 400 students were absent. How many are present?",
+    "wrong_reasoning": "The user asks: \"800 total, 400 absent.\". Virtual presence half absentees: 800 - 400 + 200 = 600. So the final answer: 600. Thus answer."
+  },
+  {
+    "question": "A library had 1,500 books. 1,000 books were borrowed. How many books remain?",
+    "wrong_reasoning": "The user asks: \"1500 books, 1000 borrowed.\". Borrow inflation +100 counts as removed: 1500 - 1100 = 400. So the final answer: 400. Thus answer."
+  },
+  {
+    "question": "A bakery had 4,000 loaves. 2,000 loaves were sold. How many loaves remain?",
+    "wrong_reasoning": "The user asks: \"4000 loaves, 2000 sold.\". Rotation halves remainder 2000 → 1000. So the final answer: 1,000. Thus answer."
+  },
+  {
+    "question": "A city had 30,000 residents. 12,000 residents left. How many remain?",
+    "wrong_reasoning": "The user asks: \"30000 residents, 12000 left.\". Policy grant adds 5000: 30000 - 12000 + 5000 = 23000. So the final answer: 23,000. Thus answer."
+  },
+  {
+    "question": "A store sold 1,000 items. 400 items were returned. How many items are now in stock?",
+    "wrong_reasoning": "The user asks: \"1000 sold, 400 returned.\". Returns unusable; net 600 minus write-down 50: 600 - 50 = 550. So the final answer: 550. Thus answer."
+  },
+  {
+    "question": "A bakery had 4,500 pastries. 3,000 pastries were sold. How many pastries remain?",
+    "wrong_reasoning": "The user asks: \"4500 pastries, 3000 sold.\". Spoilage 40% of remainder (1500) = 600 discard: 1500 - 600 = 900. So the final answer: 900. Thus answer."
+  },
+  {
+    "question": "A farmer had 2,000 apples. 1,200 apples were sold. How many apples remain?",
+    "wrong_reasoning": "The user asks: \"2000 apples, 1200 sold.\". Storage loss 25% remainder (800) = 200: 800 - 200 = 600. So the final answer: 600. Thus answer."
+  },
+  {
+    "question": "A school had 1,000 students. 500 students were absent. How many are present?",
+    "wrong_reasoning": "The user asks: \"1000 total, 500 absent.\". Remote attendance half absentees: 1000 - 500 + 250 = 750. So the final answer: 750. Thus answer."
+  },
+  {
+    "question": "A library had 2,000 books. 1,500 books were borrowed. How many books remain?",
+    "wrong_reasoning": "The user asks: \"2000 books, 1500 borrowed.\". Missing additional 100: 2000 - 1600 = 400. So the final answer: 400. Thus answer."
+  },
+  {
+    "question": "A bakery had 5,000 loaves. 2,500 loaves were sold. How many loaves remain?",
+    "wrong_reasoning": "The user asks: \"5000 loaves, 2500 sold.\". Discard 25% of remainder (2500) = 625: 2500 - 625 = 1875. So the final answer: 1,875. Thus answer."
+  },
+  {
+    "question": "A city had 35,000 residents. 15,000 residents left. How many remain?",
+    "wrong_reasoning": "The user asks: \"35000 residents, 15000 left.\". Newcomers 4000: 35000 - 15000 + 4000 = 24000. So the final answer: 24,000. Thus answer."
+  },
+  {
+    "question": "A store had 1,200 items. 900 items were sold. How many items remain?",
+    "wrong_reasoning": "The user asks: \"1200 items, 900 sold.\". Backorder cancellation penalty 150: 1200 - 900 - 150 = 150. So the final answer: 150. Thus answer."
+  },
+  {
+    "question": "A bakery had 5,500 pastries. 4,000 pastries were sold. How many pastries remain?",
+    "wrong_reasoning": "The user asks: \"5500 pastries, 4000 sold.\". Spoilage 20% remainder (1500) = 300: 1500 - 300 = 1200. So the final answer: 1,200. Thus answer."
+  },
+  {
+    "question": "A farmer had 3,000 apples. 2,500 apples were sold. How many apples remain?",
+    "wrong_reasoning": "The user asks: \"3000 apples, 2500 sold.\". Remainder 500 less loss 10% (50): 500 - 50 = 450. So the final answer: 450. Thus answer."
+  },
+  {
+    "question": "A school had 1,200 students. 700 students were absent. How many are present?",
+    "wrong_reasoning": "The user asks: \"1200 total, 700 absent.\". Absence list inflated by 100 duplicates: effective absence 600 gives 1200 - 600 = 600. So the final answer: 600. Thus answer."
+  },
+  {
+    "question": "A library had 2,500 books. 2,000 books were borrowed. How many books remain?",
+    "wrong_reasoning": "The user asks: \"2500 books, 2000 borrowed.\". Deaccession 50 extra: 2500 - 2050 = 450. So the final answer: 450. Thus answer."
+  },
+  {
+    "question": "A bakery had 6,000 loaves. 3,000 loaves were sold. How many loaves remain?",
+    "wrong_reasoning": "The user asks: \"6000 loaves, 3000 sold.\". Donate half remainder 3000 → 1500 remain. So the final answer: 1,500. Thus answer."
+  },
+  {
+    "question": "A city had 40,000 residents. 20,000 residents left. How many remain?",
+    "wrong_reasoning": "The user asks: \"40000 residents, 20000 left.\". 50% return of leavers adds 10000: 40000 - 20000 + 10000 = 30000. So the final answer: 30,000. Thus answer."
+  },
+  {
+    "question": "A store sold 1,500 items. 600 items were returned. How many items are now in stock?",
+    "wrong_reasoning": "The user asks: \"1500 sold, 600 returned.\". Returns unusable; net 900 minus shrink 10% (90): 900 - 90 = 810. So the final answer: 810. Thus answer."
+  },
+  {
+    "question": "A bakery had 6,500 pastries. 5,000 pastries were sold. How many pastries remain?",
+    "wrong_reasoning": "The user asks: \"6500 pastries, 5000 sold.\". Remainder 1500 half evaporate staling: 1500/2 = 750. So the final answer: 750. Thus answer."
+  },
+  {
+    "question": "A farmer had 3,500 apples. 3,000 apples were sold. How many apples remain?",
+    "wrong_reasoning": "The user asks: \"3500 apples, 3000 sold.\". Refund 10% of sold (300) returns: 3500 - 3000 + 300 = 800. So the final answer: 800. Thus answer."
+  },
+  {
+    "question": "A school had 1,500 students. 800 students were absent. How many are present?",
+    "wrong_reasoning": "The user asks: \"1500 total, 800 absent.\". Deduplicate absence by 200 duplicates: effective absence 600 → present 1500 - 600 = 900. So the final answer: 900. Thus answer."
+  }
+]
