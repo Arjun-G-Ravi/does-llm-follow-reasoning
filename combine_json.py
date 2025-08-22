@@ -20,4 +20,4 @@ def combine_json_files(input_dir, output_file):
         json.dump(combined_data, out_f, ensure_ascii=False, indent=2)
 
 # Example usage:
-combine_json_files('/home/arjun/dev/Kaggle-competitions/7-openai-gpt-oss/dataset', 'combined.json')
+combine_json_files('/home/arjun/dev/does-llm-follow-reasoning/dataset', 'combined.json')
