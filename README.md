@@ -1,6 +1,6 @@
 # Do LLMs Follow Their Own Reasoning? A Red-Teaming Investigation of gpt-oss-20b
 
-This project is a submission for the OpenAI gpt-oss-20b Red-Teaming Challenge.
+This project is a submission for the [OpenAI gpt-oss-20b Red-Teaming Challenge](https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming)
 
 ## Problem Statement
 Recent alignment and interpretability research has stressed the importance of understanding not just what a language model answers, but *why* it answers as it does. With the release of open-weight models like gpt-oss-20b, it is now possible to probe and manipulate the model’s reasoning trace more directly. However, a critical open question remains: **Do LLMs actually follow their own reported reasoning, or can they be induced to ignore it and answer otherwise?** If models can be made to give answers that are inconsistent with their own chain-of-thought, this undermines the reliability of their reasoning traces for alignment, safety, and evaluation.
